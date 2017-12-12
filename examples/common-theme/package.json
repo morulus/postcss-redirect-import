@@ -1,5 +1,5 @@
 {
-  "description": "Switch color themes via postcss-import-sub",
+  "description": "Switch color themes via postcss-redirect-import",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -7,7 +7,7 @@
   },
   "keywords": [
     "postcss",
-    "postcss-import-sub"
+    "postcss-redirect-import"
   ],
   "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "extract-text-webpack-plugin": "2.1.2",
     "html-webpack-plugin": "2.25.0",
     "inquirer": "2.0.0",
-    "postcss-import-sub": "../../",
+    "postcss-redirect-import": "../../",
     "postcss-loader": "1.2.1",
     "postcss-simple-vars": "3.0.0",
     "style-loader": "0.13.1",

@@ -48,7 +48,7 @@ fs.__setMockFiles([
   'app/Theme/Components/Box/red.css',
 ]);
 
-describe('postcss-import-sub', () => {
+describe('postcss-redirect-import', () => {
 
   it ('relative `to` substitution', () => {
     const render = mockRender(sub([

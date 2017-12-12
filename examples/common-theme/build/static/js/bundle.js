@@ -10510,7 +10510,7 @@ module.exports = ReactPropTypesSecret;
 "use strict";
 'use strict';
 
-var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-import-sub/examples/customize-modules/src/index.js';
+var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-redirect-import/examples/customize-modules/src/index.js';
 
 var _react = __webpack_require__(/*! react */ 53);
 
@@ -10549,7 +10549,7 @@ ReactDOM.render(React.createElement(_Layout2.default, {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-import-sub/examples/customize-modules/readonly_modules/colorgroup/index.js';
+var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-redirect-import/examples/customize-modules/readonly_modules/colorgroup/index.js';
 exports.default = ColorGroup;
 
 var _react = __webpack_require__(/*! react */ 53);
@@ -10643,7 +10643,7 @@ function ColorGroup() {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-import-sub/examples/customize-modules/src/components/Layout/index.js';
+var _jsxFileName = '/Users/morulus/workbench/morulus/projects/postcss-redirect-import/examples/customize-modules/src/components/Layout/index.js';
 /**
 * Import component from node_modules, so we can't edit it
 */
@@ -23764,7 +23764,7 @@ if(true) {
   \******************/
 /***/ function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/morulus/workbench/morulus/projects/postcss-import-sub/examples/customize-modules/src/index.js */81);
+module.exports = __webpack_require__(/*! /Users/morulus/workbench/morulus/projects/postcss-redirect-import/examples/customize-modules/src/index.js */81);
 
 
 /***/ }

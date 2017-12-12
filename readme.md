@@ -1,4 +1,4 @@
-postcss-import-sub
+postcss-redirect-import
 --
 
 It is decoration for plugin [postcss-import](https://github.com/postcss/postcss-import), which helps to create resolve rules.
@@ -6,7 +6,7 @@ It is decoration for plugin [postcss-import](https://github.com/postcss/postcss-
 ## Installation
 
 ```shell
-$ npm install postcss-import-sub
+$ npm install postcss-redirect-import
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ First, you should learn how to use [post-import](https://github.com/postcss/post
 // dependencies
 var fs = require("fs")
 var postcss = require("postcss")
-var subImport = require("postcss-import-sub")
+var subImport = require("postcss-redirect-import")
 
 // css to be processed
 var css = fs.readFileSync("css/input.css", "utf8")
@@ -134,7 +134,7 @@ In addition, you can use predefined placeholders, such as `<root>`, `<id>`, `<ba
 
 ## Not strict substitution
 
-A nice feature of the plugin is the fact that if the overridden path does not exists, it will use the standard method of file resolving. It allows you to create an environment in which any style can work fine without substitution (for example, in the case of using the classic postcss-import plugin). When you replace postcss-import to postcss-import-sub, you have the opportunity to customize the styles without spoiling the original sources.
+A nice feature of the plugin is the fact that if the overridden path does not exists, it will use the standard method of file resolving. It allows you to create an environment in which any style can work fine without substitution (for example, in the case of using the classic postcss-import plugin). When you replace postcss-import to postcss-redirect-import, you have the opportunity to customize the styles without spoiling the original sources.
 
 ## Appending
 
@@ -194,7 +194,7 @@ The added resource will work exactly the same as if you add it as a second impor
 
 ## Using original postcss-import options
 
-You can define original postcss-import options as well as the usual. But in this case, the rules for a postcss-import-sub is specified in the property `sub`.
+You can define original postcss-import options as well as the usual. But in this case, the rules for a postcss-redirect-import is specified in the property `sub`.
 
 ```js
 subImport({
@@ -215,8 +215,8 @@ __Common theme__
 Append to all `theme.css` common theme.
 
 ```shell
-git clone https://github.com/morulus/postcss-import-sub.git
-cd postcss-import-sub/examples/common-theme
+git clone https://github.com/morulus/postcss-redirect-import.git
+cd postcss-redirect-import/examples/common-theme
 npm install
 npm start
 ```
