@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/morulus/postcss-redirect-import#readme",
   "dependencies": {
-    "import-sub": "^1.0.0-beta.1",
+    "import-sub": "^1.0.0-beta.2",
     "postcss-import": "^11.0.0"
   },
   "devDependencies": {

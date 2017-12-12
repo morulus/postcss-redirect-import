@@ -250,4 +250,26 @@ describe('postcss-redirect-import', () => {
       expect(module.length).toBe(1);
     });
   });
+
+  it ('explain', () => {
+    const log = jest.fn();
+    const render = mockRender(sub({
+      redirect: [
+        {
+          match: {
+            request: /red\.css/
+          },
+          use: {
+            request: "blue.css"
+          }
+        }
+      ],
+      explain: log
+    }));
+    return render("red.css", "app/Components/Box/")
+    .then(function(module) {
+      expect(module[0]).toBe("app/Components/Box/blue.css");
+      expect(log).toHaveBeenCalled();
+    });
+  });
 });

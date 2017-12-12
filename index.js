@@ -13,8 +13,9 @@ function sub(options) {
     rules = options;
     options = {};
   } else {
-    rules = options.sub;
+    rules = options.sub || options.redirect;
     delete options.sub;
+    delete options.redirect;
   }
 
   options.originalResolve = resolveId;
