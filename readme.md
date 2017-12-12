@@ -6,7 +6,7 @@ It is decoration for plugin [postcss-import](https://github.com/postcss/postcss-
 ## Installation
 
 ```shell
-$ npm install postcss-redirect-import
+$ npm install postcss-redirect-import --D
 ```
 
 ## Usage
@@ -199,7 +199,7 @@ You can define original postcss-import options as well as the usual. But in this
 ```js
 subImport({
     root: path.join(process.cwd(), 'app'),
-    sub: {
+    redirect: {
       match: {...},
       use: {...}
     }

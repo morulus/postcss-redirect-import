@@ -1,6 +1,6 @@
 {
   "name": "postcss-redirect-import",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Postcss import substitution",
   "engines": {
     "node": ">=6.0"
